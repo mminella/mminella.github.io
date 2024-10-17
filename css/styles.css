@@ -3943,6 +3943,10 @@ td:last-child {
  *
  *
  * ------------------------------------------------------------------- */
+#works {
+    padding-top: var(--vspace-7);
+}
+
 .s-works {
     padding-top   : var(--vspace-6);
     padding-bottom: var(--vspace-1);
@@ -4136,6 +4140,32 @@ td:last-child {
     }
 }
 
+/* ===================================================================
+ * # EXPERIENCE
+ *
+ *
+ * ------------------------------------------------------------------- */
+#experience {
+    padding-top: var(--vspace-7);
+}
+
+#experience.s-numbers {
+    padding-top     : var(--vspace-3);
+}
+
+#experience div.section-header {
+    margin-bottom     : var(--vspace-1);
+}
+
+#experience div h3.s-testimonials__header {
+    margin-bottom     : var(--vspace-1);
+}
+
+#experience li {
+    font-family: "Public Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
 
 /* ===================================================================
  * # NUMBERS
