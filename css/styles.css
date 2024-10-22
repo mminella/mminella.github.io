@@ -1,6 +1,13 @@
 @charset "UTF-8";
 
-/* =================================================================== 
+/* =====================            <div class="row">
+                <div class="column xl-12">
+                    <div class="section-header" data-num="02">
+                        <h2 class="text-display-title">By the numbers.</h2>
+                    </div> <!-- end section-header -->
+                </div>
+            </div>
+==============================================
  * Hudson Main Stylesheet
  * Template Ver. 1.0.0
  * 04-03-2023
@@ -3945,10 +3952,12 @@ td:last-child {
  * ------------------------------------------------------------------- */
 #works {
     padding-top: var(--vspace-7);
+    background-color        : var(--color-gray-10);
 }
 
 .s-works {
     padding-top   : var(--vspace-6);
+    background-color        : var(--color-gray-10);
     padding-bottom: var(--vspace-1);
 }
 
@@ -4145,6 +4154,10 @@ td:last-child {
  *
  *
  * ------------------------------------------------------------------- */
+.s-experience {
+    padding-top: var(--vspace-7);
+}
+
 #experience {
     padding-top: var(--vspace-7);
 }

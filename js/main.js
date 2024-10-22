@@ -143,6 +143,7 @@
                 * sectionId variable we are getting while looping through sections as 
                 * an selector
                 */
+
                 if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
                     document.querySelector('.s-header__nav a[href*=' + sectionId + ']').parentNode.classList.add('current');
                 } else {
