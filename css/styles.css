@@ -4176,8 +4176,18 @@ td:last-child {
 
 #experience li {
     font-family: "Public Sans", sans-serif;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 400;
+    margin-bottom: 5px;
+}
+#experience li b {
+    font-size: 21px;
+}
+
+.circle {
+    list-style-type: circle;
+    margin-left: 2em;
+    margin-top: 0;
 }
 
 /* ===================================================================
