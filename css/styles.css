@@ -2788,6 +2788,7 @@ td:last-child {
 .social-list a:focus svg path,
 .social-list a:focus svg circle,
 .social-list a:hover svg path,
+.social-list a:hover svg rect,
 .social-list a:hover svg circle {
     fill: var(--color-white);
 }
@@ -2798,6 +2799,7 @@ td:last-child {
 }
 
 .social-list svg path,
+.social-list svg rect,
 .social-list svg circle {
     fill      : rgba(255, 255, 255, 0.5);
     transition: all 0.5s;
